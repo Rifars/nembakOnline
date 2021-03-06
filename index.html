@@ -111,14 +111,14 @@
 
 
 	<script>
-		// let inputNama = prompt("Masukan Nama : ");
+		let inputNama = prompt("Masukan Nama : ");
 		let tombol = document.querySelectorAll(".tombol");
-		// let nama = document.querySelector('.nama');
-		// if(!inputNama){
-		// 	nama.innerText = "No name";
-		// }else {
-		// 	nama.innerText = inputNama;
-		// }
+		let nama = document.querySelector('.nama');
+		if(!inputNama){
+			nama.innerText = "No name";
+		}else {
+			nama.innerText = inputNama;
+		}
 		
 		let close = document.querySelector('.close');
 		close.addEventListener('click',function(){
